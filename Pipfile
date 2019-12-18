@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+sense-emu = "==1.1"
+pycairo = "*"
+pygobject = "*"
+
+[packages]
+pisense = "==0.2"
+requests = "*"
+potsdb = "*"
+
+[requires]
+python_version = "3.7"

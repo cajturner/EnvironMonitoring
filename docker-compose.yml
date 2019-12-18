@@ -1,0 +1,18 @@
+version: "3"
+services:
+  # sensor:
+  #   build: .
+  #   privileged: true
+
+  opentsdb:
+    image: petergrace/opentsdb-docker
+    ports:
+      - "4242:4242"
+    volumes:
+      - "./data/opentsdb:/data/hbase"
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./data/grafana:/var/lib/grafana"

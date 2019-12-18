@@ -1,13 +1,19 @@
 # HomeTempMonitoring
 
-ssh pi@109.146.71.125
+## Run
+
+```bash
+docker-compose up
+pipenv shell
+python src/Sensor.py
+```
 
 ## Develop
 
 ```bash
 pipenv shell
+pipenv install
 python src/Sensor.py
-
 ```
 
 export LDFLAGS="-L/usr/local/opt/libffi/lib"

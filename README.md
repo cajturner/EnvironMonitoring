@@ -1,5 +1,9 @@
 # HomeTempMonitoring
 
+Simple monitoring system for RaspberryPi environment hat
+
+![](https://media.giphy.com/media/fAT2Db0j0Mblu/giphy.gif)
+
 ## Run
 
 ```bash
@@ -16,7 +20,7 @@ pipenv install
 python src/Sensor.py
 ```
 
-If there is issues installing sense-emu you may need the following
+If there is issues installing sense-emu you may need the following:
 
 ```bash
 export LDFLAGS="-L/usr/local/opt/libffi/lib"

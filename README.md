@@ -16,7 +16,9 @@ pipenv install
 python src/Sensor.py
 ```
 
-export LDFLAGS="-L/usr/local/opt/libffi/lib"
+If there is issues installing sense-emu you may need the following
 
-For pkg-config to find libffi you may need to set:
+```bash
+export LDFLAGS="-L/usr/local/opt/libffi/lib"
 export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+```
